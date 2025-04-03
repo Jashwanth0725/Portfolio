@@ -3,7 +3,7 @@ import Image from "next/image";
 import Page from "./projects/projectpage";
 import ContactPage from "./contact/contactpage";
 import SkillsPage from "./skills/skillspage";
-import Navbar from "@/components/navbar";
+// import Navbar from "@/components/navbar";
 
 export default function Home() {
   const scrollToSection = (id: string) => {
@@ -86,13 +86,6 @@ export default function Home() {
         </h2>
         <ContactPage />
       </section>
-
-      <footer className="bg-gray-900 text-white py-6 text-center">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} Jashwanth Sai Tandamalla. All rights
-          reserved.
-        </p>
-      </footer>
     </main>
   );
 }
