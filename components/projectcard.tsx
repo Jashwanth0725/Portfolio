@@ -18,6 +18,7 @@ const ProjectCard = ({ image, title, text, sourcecode }: Props) => {
       <div className="relative z-10 flex flex-col gap-4 p-4">
         <h1 className="text-white text-2xl font-semibold">{title}</h1>
         <p className="text-gray-200 text-[18px]">{text}</p>
+        <p className="text-gray-200 text-[12px]">{sourcecode}</p>
       </div>
     </div>
   );

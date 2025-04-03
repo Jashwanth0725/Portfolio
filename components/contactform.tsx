@@ -4,9 +4,9 @@ const ContactForm = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-6 md:p-10 rounded-lg shadow-lg">
       {/* Heading */}
-      <h1 className="text-4xl font-bold text-white mb-8 text-center">
+      {/* <h1 className="text-4xl font-bold text-white mb-8 text-center">
         Get in Touch
-      </h1>
+      </h1> */}
 
       {/* Contact Form */}
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl gap-x-8">

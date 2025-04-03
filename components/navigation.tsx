@@ -2,30 +2,30 @@
 import { NavLinks } from "../constants/index";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Transition from "./transition";
 
 const Navigation = () => {
   const [isRouting, setisRouting] = useState(false);
   const path = usePathname();
-  const [prevPath, setPrevPath] = useState("/");
+  const prevPathRef = useRef(path);
 
   useEffect(() => {
-    if (prevPath !== path) {
+    if (prevPathRef.current !== path) {
       setisRouting(true);
     }
-  }, [path, prevPath]);
+  }, [path]);
 
   useEffect(() => {
     if (isRouting) {
-      setPrevPath(path);
+      prevPathRef.current = path;
       const timeout = setTimeout(() => {
         setisRouting(false);
       }, 1200);
-
       return () => clearTimeout(timeout);
     }
   }, [isRouting]);
+
   return (
     <div
       style={{ left: "20%" }}
