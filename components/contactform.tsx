@@ -44,14 +44,14 @@ const ContactForm = () => {
           </button>
         </form>
 
-        {/* Contact Image on the Right */}
+        {/* Contact Image on the Right
         <div className="hidden md:block md:w-1/2">
           <img
             src="/contact-image.jpg"
             alt="Contact Illustration"
             className="w-full h-auto rounded-lg shadow-lg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

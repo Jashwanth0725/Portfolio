@@ -74,40 +74,40 @@ export const SkillData = [
 export const Socials = [
   {
     name: "LinkedIn",
-    src: "/linkedin.svg",
+    src: "/linkedin.png",
   },
   {
     name: "Github",
-    src: "/github.svg",
+    src: "/github.png",
   },
   {
     name: "Leetcode",
-    src: "/leetcode.svg",
+    src: "/leetcode.png",
   },
 ];
 export const Projects = [
   {
     title: "Ai Image to Music and Caption Generator Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    src: "",
     sourcecode: "",
   },
   {
     title: "Play Station store an e-commerce website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "",
     sourcecode: "",
   },
   {
     title: "Modern Nextjs Portfolio",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    src: "",
     sourcecode: "",
   },
   {
     title: "Automatic Weapon Detection System",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    src: "",
     sourcecode: "",
   },
 ];
